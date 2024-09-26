@@ -1,0 +1,81 @@
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: lightblue;
+}
+
+header>section.titulo {
+    display: flex;
+    width: 100%;
+}
+
+header>section.titulo>img {
+    width: 300px;
+}
+
+
+header>section.titulo>.conteudo-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px;
+
+
+}
+
+strong,
+h1 {
+    background-color: lightblue;
+}
+
+section.bloco-body{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: white;
+}
+
+.esquerdo {
+    width: 300px;
+    background-color: lightcoral;
+    padding-top: 15px;
+}
+
+.esquerdo h2{
+    text-align: center;
+    font-size: ;
+}
+
+.contato{
+    text-align: center;
+}
+
+.direita {
+    max-width: 80%;
+    padding: 15px;
+    background-color: white;
+}
+
+.direita p{
+    font-size: 15px;
+}
+
+.experience{
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.curiosities{
+    padding-top: 20px;
+}
+
+#oi{
+    font-size: 20px;
+}
